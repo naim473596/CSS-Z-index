@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1170px;
+    margin: auto;
+    margin-top: 50px;
+
+}
+h1{
+    text-align: center;
+}
+.main{
+    display: flex;
+    background-color: pink;
+    position: relative;
+    padding: 30px;
+}
+.div1{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    background-color: red;
+    margin-right: -50px;
+    
+}
+.div1:hover, .div2:hover, .div3:hover, .div4:hover, .div5:hover{
+    z-index: 0;
+}
+.div2{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    background-color: black;
+    margin-right: -50px;
+}
+
+.div3{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    background-color: navy;
+    margin-right: -50px;
+}
+.div4{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    background-color: orangered;
+    margin-right: -50px;
+}
+.div5{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    background-color: purple;
+    margin-right: -50px;
+}
+.div6{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    background-color: green;
+    
+}
